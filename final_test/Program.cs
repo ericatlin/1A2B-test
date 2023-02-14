@@ -39,10 +39,6 @@ namespace final_test
                                 arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
                             }
                         }
-                        //arr[0]只有不為零條件
-                        //2.arr[0] 是否等於 arr[1]
-                        //3~~~~[0][1] ~~~~~~~ arr[2]  
-                       
                         
                     }
                     //亂數
