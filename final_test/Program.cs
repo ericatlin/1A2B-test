@@ -20,30 +20,34 @@ namespace final_test
                 //宣告變數
 
                 Random rnd = new Random();
-                for (int i = 0; i < 4; i++)
-                {
-                    arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
+                
+                    for (int i = 0; i < 4; i++)
+                    {
+                        arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
 
-                    if (arryRndnum[0] == "0")
-                    {
-                        arryRndnum[0] = Convert.ToString(rnd.Next(1, 9));
-                    }
-                    //第一位數字不為零
-                     
-                    for (int j = 0; j < i; j++)
-                    {
-                        if (arryRndnum[j] == arryRndnum[i])
+                        if (arryRndnum[0] == "0")
                         {
-                            j = 0;
-                            arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
+                            arryRndnum[0] = Convert.ToString(rnd.Next(1, 9));
                         }
-                    }
-                    //arr[0]只有不為零條件
-                    //2.arr[0] 是否等於 arr[1]
-                    //3~~~~[0][1] ~~~~~~~ arr[2]  
+                        //第一位數字不為零
 
-                }
-                //亂數
+                        for (int j = 0; j < i; j++)
+                        {
+                            if (arryRndnum[j] == arryRndnum[i])
+                            {
+                                j = 0;
+                                arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
+                            }
+                        }
+                        //arr[0]只有不為零條件
+                        //2.arr[0] 是否等於 arr[1]
+                        //3~~~~[0][1] ~~~~~~~ arr[2]  
+                       
+                        
+                    }
+                    //亂數
+                    
+                
 
 
 
