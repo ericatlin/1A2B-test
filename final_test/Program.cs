@@ -39,7 +39,7 @@ namespace final_test
                                 arryRndnum[i] = Convert.ToString(rnd.Next(0, 9));
                             }
                         }
-                        
+                    Console.WriteLine(arryRndnum[i]);
                     }
                     //亂數
                     
